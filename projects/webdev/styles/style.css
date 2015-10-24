@@ -99,7 +99,11 @@ body {
     text-transform: uppercase;
     font: 600 16px 'Open Sans', sans-serif;
     cursor: pointer;
+}
 
+.banner input:hover {
+    color: #000;
+    border-color: #000;
 }
 
 /* Portfolio */
