@@ -1,0 +1,26 @@
+@import "header.css";
+@import "video-player.css";
+@import "footer.css";
+
+html {
+    font-size: 10px;
+}
+
+.page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #2f2f2f;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.page__wrap {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    align-items: center;
+}

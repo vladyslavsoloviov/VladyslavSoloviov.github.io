@@ -1,0 +1,146 @@
+.video-player {
+    width: 100%;
+    height: 772px;
+
+    background: url('../images/video.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.video-player__wrap {
+    position: relative;
+
+    width: 100%;
+    height: 772px;
+}
+
+.video-player__header {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 25%, #0b0c10 50%, #040406 75%, #010101 100%);
+}
+
+.video-player__link-name {
+    margin-left: 40px;
+
+    padding: 35px 0 40px;
+
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.video-player__history {
+    position: absolute;
+    top: 35px;
+    right: 90px;
+
+    width: 45px;
+    height: 45px;
+
+    background: url('../images/player_instruments.png') left top no-repeat;
+}
+
+.video-player__share {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+
+    width: 41px;
+    height: 47px;
+
+    background: url('../images/player_instruments.png') -67px top no-repeat;
+}
+
+.video-player__watch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 443px;
+    height: 195px;
+    margin: auto;
+    padding: 51px 135px 51px 42px;
+
+    color: #fff;
+    border: 1px solid #ee0622;
+    border-radius: 35px;
+    background: -webkit-linear-gradient(bottom, #d10f18 0%, #dd0b1d 25%, #fa0228 51%, #ff002a 100%);
+
+    font-size: 6.0rem;
+    font-weight: 500;
+}
+
+.video-player__watch::after {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+
+    width: 84px;
+    height: 93px;
+    margin-top: -43px;
+
+    content: url('../images/video_play.png');
+}
+
+.video-player__watch:hover {
+    background: #ff0000;
+}
+
+.video-player__watch:focus {
+    background: #ff8b7c;
+    border: 1px solid #ff8b7c;
+}
+
+.video-player__watched {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    width: 100%;
+    height: 20px;
+    margin: 120px auto 0;
+
+    text-align: center;
+
+    color: #bababa;
+
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.video-player__cancel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 200px;
+    margin: 170px 0 0 -100px ;
+    padding: 8px 20px;
+
+    color: #fff;
+    border: 2px solid #91949a;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.video-player__cancel:hover {
+    background-color: #000;
+}
+
+.video-player__bar {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 105px;
+
+    background: url('../images/player_bar.png') no-repeat;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,53 @@
+.header {
+    position: relative;
+
+    width: 100%;
+    padding: 20px 0;
+
+    text-align: center;
+
+    border-bottom: 1px solid #444;
+    background: -webkit-linear-gradient(bottom, #2f2f2f 0%, #2f2f2f 50%, #363636 51%, #363636 100%);
+}
+
+.header__logo {
+    margin: 0;
+}
+
+.header__logo-link {
+    margin-right: 2.81%;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+.header__logo-link span {
+    padding: 3px 7px;
+
+    color: #ff002a;
+    border-radius: 15px;
+    background-color: #fff;
+
+    font-weight: 700;
+}
+
+.header__age-limit {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    width: 64px;
+    height: 63px;
+    margin: -31px 0 0;
+
+    color: #fff;
+    background: url('../images/age_limit.png') no-repeat;
+
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 2.5;
+}
